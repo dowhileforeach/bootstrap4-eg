@@ -1,3 +1,5 @@
+![Grid](src/assets/Grid.png?raw=true)  
+
 # Bootstrap4
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
