@@ -8,7 +8,15 @@ html, body {
 
 body {
   width: 100%;
-  border: $b-3x solid red;
+  //border: $b-3x solid red;
+}
+
+app-root{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .container, .container-fluid {
