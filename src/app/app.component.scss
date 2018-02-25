@@ -38,14 +38,13 @@ header {
   align-items: center;
 
   .form-group {
-    margin-bottom: 0;
     display: flex;
     align-items: center;
-    background: lightgray;
+    background: #f8f9fa;
     border-radius: 3px;
     padding: 5px;
     margin: 5px;
-    border: $b-1x solid #c6c6c6;
+    border: $b-1x solid #e9ecef;
     label {
       margin-bottom: 0;
     }

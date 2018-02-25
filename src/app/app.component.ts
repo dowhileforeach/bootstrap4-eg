@@ -7,4 +7,5 @@ import {Component} from '@angular/core';
 })
 export class AppComponent {
   container = 'container';
+  container_bg_color: string;
 }
