@@ -1,4 +1,4 @@
-Online: [](https://stackblitz.com/github/dowhileforeach/bootstrap4-eg)  
+Site: [https://stackblitz.com/github/dowhileforeach/bootstrap4-eg](https://stackblitz.com/github/dowhileforeach/bootstrap4-eg)  
 Click for zoom:  
 ![Grid](src/assets/Grid.png?raw=true)  
 
