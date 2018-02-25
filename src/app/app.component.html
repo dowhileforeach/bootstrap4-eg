@@ -1,10 +1,18 @@
-<header></header>
+<header>
+  <div class="form-group">
+    <label for="container-type-for">container:</label>
+    <select class="form-control" [(ngModel)]="container" (change)="log()" name="container-type" id="container-type-for">
+      <option value="container">.container</option>
+      <option value="container-fluid">.container-fluid</option>
+    </select>
+  </div>
+</header>
 
 <main>
-  <!--<div class="w-100">MAIN</div>-->
-  <div class="container">
+  <div [ngClass]="container">
     <div class="w-100">.container,&nbsp;&nbsp;
-      <a class="alert-link alert-light" href="http://getbootstrap.com/docs/4.0/layout/grid/#grid-options" target="_blank">Grid options</a>
+      <a class="alert-link alert-light bg-transparent" href="http://getbootstrap.com/docs/4.0/layout/grid/#grid-options"
+         target="_blank">Grid options</a>
     </div>
     <div class="row">
       <div class="w-100">.row</div>
