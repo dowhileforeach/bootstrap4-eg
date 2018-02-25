@@ -1,0 +1,19 @@
+@import "../scss/config";
+
+.row{
+  width: 100%;
+}
+
+header, footer, main {
+  align-content: flex-start;
+}
+
+header, footer {
+  height: 70px;
+}
+
+main {
+  flex-grow: 1;
+}
+
+

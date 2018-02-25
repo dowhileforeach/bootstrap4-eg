@@ -1,0 +1,10 @@
+
+$b-1x: 1px;
+$b-2x: $b-1x*2;
+$b-3x: $b-1x*3;
+
+$color-xl: #FFFFFF; //≥1200px, zone Extra large
+$color-lg: #fbffc0; //≥992 and <1200, zone Large
+$color-md: #ede9fe; //≥768 and <992, zone Medium
+$color-sm: #d7fdd4; //≥576 and <768, zone Small
+$color-xs: #fbe8eb; //<576, zone Extra small

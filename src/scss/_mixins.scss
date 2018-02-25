@@ -1,0 +1,5 @@
+@mixin bg-container($color) {
+  .container, .container-fluid {
+    background-color: $color;
+  }
+}

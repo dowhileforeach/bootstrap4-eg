@@ -1,0 +1,43 @@
+@import "scss/themed_bootstrap4";
+@import "scss/config";
+@import "scss/mixins";
+
+html, body {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  border: $b-3x solid red;
+}
+
+.container, .container-fluid {
+  border: $b-2x dashed #ffb731;
+}
+
+.row {
+  border: $b-2x solid #00b400;
+}
+
+div[class^="col"] {
+  border: $b-1x solid blue;
+}
+
+@include media-breakpoint-only(xl){
+  @include bg-container($color-xl);
+}
+@include media-breakpoint-only(lg){
+  @include bg-container($color-lg);
+}
+
+@include media-breakpoint-only(md){
+  @include bg-container($color-md);
+}
+
+@include media-breakpoint-only(sm){
+  @include bg-container($color-sm);
+}
+
+@include media-breakpoint-only(xs){
+  @include bg-container($color-xs);
+}
